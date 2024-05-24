@@ -1,0 +1,154 @@
+html,body,code{
+	height:100%;
+	max-width: 1200px;
+	margin:0 auto;
+	background: #fff;
+	color: #333;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.625em;
+}
+
+body{
+	padding: 10px 10px 20px 10px;
+	width: calc(100% - 10px);
+	text-align: justify;
+	word-break: break-all; 
+	letter-spacing: -0.02em;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+a{
+	color: #C83131;
+	text-decoration:none;
+	position: relative;
+	top: 0;
+	transition: 0.1s ease-in-out;
+}
+
+a:hover{
+	color: #ff4040;
+	top: -1px;
+}
+
+img {
+  width: 85%;
+  overflow: hidden;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.small {
+  width: 25%;
+  max-width: 250px;
+}
+
+p, li, span, a, label, h1, h2, h3 {
+    transform: rotate(-0.3deg);
+    -webkit-transform:rotate(-0.3deg);
+    -moz-transform:rotate(-0.3deg);
+    -ms-transform:rotate(-0.3deg);
+    -o-transform:rotate(-0.3deg);
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+  line-height: 100%;
+	margin-top:2.5em;
+	margin-bottom: 1.5em;
+}
+
+h2{
+	transform: rotate(0.5deg);
+	text-align: left;
+	font-weight: bold;
+	margin-top:2.5em;
+	margin-bottom: 0;
+}
+
+h3{
+	text-align: center;
+	margin-top:1.75em;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.p-textarea{
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+li{
+	list-style: circle;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+code{
+	font-weight:bold;
+	background-color: beige;
+}
+
+#footer{
+	transform: rotate(90deg);
+	max-width: 550px;
+	text-align: center;
+	margin-top:80px;
+	margin-bottom:80px;
+	
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+#beian{
+    font-size: 12px;
+}
+
+/* 适应不同分辨率的显示 */
+
+@media (max-width: 900px){
+	blockquote {
+		margin: 10px;
+	}
+}
+
+@media (max-width: 860px){
+	#header #nav{
+		width: 300px;
+		text-align: right;
+		top: 24px;
+	}
+	
+	#header #nav span{
+		opacity: 0;
+		display: block;
+		height: 0px;
+	}
+}
+
+@media (max-width: 760px){
+	.web10{
+		display:none;
+	}
+	
+	blockquote {
+		margin: 8px;
+	}
+}
+
+@media (max-width: 600px) {
+	blockquote {
+		margin: 8px;
+	}
+	body{
+		width:90%;
+		margin:0;
+	}
+}
